@@ -453,5 +453,59 @@
         </div>
       </div>
     </footer>
+
+    <!-- backdrop -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button
+          class="modal-close-btn"
+          type="button"
+          aria-label="modal close button"
+        >
+          <svg
+            class="modal-close-btn-icon"
+            width="8"
+            height="8"
+            aria-label="modal close button"
+          >
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="review-form-description">
+          leave your contacts and we will call you back
+        </p>
+        <form class="review-form">
+          <div class="review-form-field-wrapper">
+            <label for="" class="review-form-field-label">Name</label>
+            <input type="text" class="review-form-field" />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label for="" class="review-form-field-label">Phone</label>
+            <input type="text" class="review-form-field" />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label for="" class="review-form-field-label">Email</label>
+            <input type="text" class="review-form-field" />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label for="" class="review-form-field-label">Comment</label>
+            <textarea
+              name=""
+              id=""
+              class="review-form-messege"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="review-form-checkbox-wrapper">
+            <input type="checkbox" class="review-form-checkbox" />
+            <label for="" class="review-form-checkbox-label"
+              >I accept the terms and conditions of the
+              <a href="" class="privacy-policy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="review-form-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
