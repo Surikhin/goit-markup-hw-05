@@ -483,6 +483,10 @@ background-color: var(--OCEAN);
     fill: var(--CLOUD);
 }
 
+.futer-email-input {
+    margin-left: 80px;
+}
+
 .futer-text-subscribe {
     margin-bottom: 16px;
     font-weight: 500;
