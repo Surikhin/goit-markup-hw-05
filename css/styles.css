@@ -510,6 +510,7 @@ background-color: var(--OCEAN);
     line-height: 1.5;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    padding-left: 16px;
     border-radius: 4px;
     color: var(--WHITE);
 }
